@@ -1,0 +1,37 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bug Queue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+</head>
+<body>
+
+<form>
+    <legend>Bug Report Form</legend>
+    <label for="title">Bug Title:</label>
+    <input id="bugTitle" type="text" placeholder="Title" name="title">
+    <label for="desc">Description:</label>
+    <textarea id="bugDesc" name="desc" cols="30" rows="10" placeholder="Please enter a short description of the bug here."></textarea>
+    <button type="button" id="bug-submit">Submit</button>
+</form>
+
+<section class="bugs">
+    <!-- BUG TEMPLATE ----------
+        <section class="bug">
+        <div class="timestamp">(time goes here)</div>
+        <div class="bug-title">BUG HERE</div>
+        <div class="bug-desc">DESCRIPTION HERE</div>
+        <button class="clear-bug" type="button">Bug Fixed</button>
+    </section> 
+    --------------------------->
+    <p class="default-bug">No current bugs :D</p>
+</section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
